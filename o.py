@@ -148,7 +148,7 @@ cvs3 = compileShader(vertex_shader3, GL_VERTEX_SHADER)
 shader3 = compileProgram(cvs3, cfs1)
 
 #Change shader here
-shader = shader2
+shader = shader1
 
 mesh = Obj('./models/jupiter.obj')
 v_buffer = []
